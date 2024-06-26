@@ -1,0 +1,14 @@
+{
+  "name": "second_peterbaker_purple",
+  "version": "1.0.0",
+  "description": "## 1. The Kata \"Pete the Baker\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
