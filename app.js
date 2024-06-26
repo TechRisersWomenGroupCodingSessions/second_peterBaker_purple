@@ -1,5 +1,5 @@
-const baker = () => {
+const cake = () => {
     return 2;
 }
 
-module.exports = baker
+module.exports = cake

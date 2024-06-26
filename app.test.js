@@ -1,5 +1,5 @@
-const baker = require('./app');
+const cake = require('./app');
 
 test('Returns 2 as the amount of cakes that can be baked', () => {
-    expect(baker()).toBe(2)
+    expect(cake()).toBe(2)
 });
