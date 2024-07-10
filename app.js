@@ -15,7 +15,7 @@ const cake = (recipe, ingredients) => {
     if (Number.isNaN(min_number_of_cakes)) {
         console.log("I got here")
 
-        throw "Test Error"
+        throw new TypeError();
         
     } else {
         return min_number_of_cakes
