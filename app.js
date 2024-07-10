@@ -9,9 +9,18 @@ const cake = (recipe, ingredients) => {
         number_of_cakes.push(Math.floor(available_amount/required_amount))
     }
     console.log(number_of_cakes)
-    min_number_of_cakes = 0
-    if (Math.min(...number_of_cakes) )
-    return 
+    min_number_of_cakes = Math.min(...number_of_cakes)
+    console.log(min_number_of_cakes)
+    console.log(Number.isNaN(min_number_of_cakes))
+    if (Number.isNaN(min_number_of_cakes)) {
+        console.log("I got here")
+
+        throw "Test Error"
+        
+    } else {
+        return min_number_of_cakes
+    }
+    
 }
 
 module.exports = cake
