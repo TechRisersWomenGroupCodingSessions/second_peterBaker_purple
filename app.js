@@ -6,13 +6,12 @@ const cake = (recipe, ingredients) => {
         if (item in ingredients) {
             available_amount = ingredients[item]
         }
-        console.log(item)
-        console.log(available_amount)
-        console.log(required_amount)
         number_of_cakes.push(Math.floor(available_amount/required_amount))
     }
-    console.log(".....")
-    return Math.min(...number_of_cakes)
+    console.log(number_of_cakes)
+    min_number_of_cakes = 0
+    if (Math.min(...number_of_cakes) )
+    return 
 }
 
 module.exports = cake
