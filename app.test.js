@@ -27,8 +27,8 @@ const cake = require('./app');
 // });
 
 test('Exception is raised when entering an invalid value', () => {
-    expect(cake(
+    expect(() => {cake(
         {"flour": "one hundred", "milk": 2}, 
-        {"flour": 200, "milk": 10}))
+        {"flour": 200, "milk": 10})})
         .toThrowError;
 });
